@@ -2238,7 +2238,7 @@ const GOBLIN: &str = "17998
 13688";
 
 fn main() {
-    let goblin_split: Vec<String> = goblin.split("\n").map(|s| s.to_string()).collect();
+    let goblin_split: Vec<String> = GOBLIN.split("\n").map(|s| s.to_string()).collect();
     let mut response:Vec<i32> = Vec::new();
 
     let mut calory_number = 0;
